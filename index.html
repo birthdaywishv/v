@@ -105,19 +105,14 @@
       </div>
     </header>
 
-    <!-- Dedicated Background Audio System (Local Audio - Connie Francis: Pretty Little Baby) -->
+    <!-- Dedicated Background Audio System (User Uploaded Song: Pretty Little Baby) -->
     <audio id="bg-audio" preload="auto" loop playsinline>
-      <source src="assets/pretty_little_baby.m4a" type="audio/mp4">
-      <source src="assets/pretty_little_baby.mp4" type="video/mp4">
+      <source src="assets/soul_sister_song.mp3" type="audio/mpeg">
+      <source src="assets/pretty_little_baby.mp3" type="audio/mpeg">
+      <source src="assets/bg_music.mp3" type="audio/mpeg">
     </audio>
 
-    <video id="bg-video-audio" playsinline loop
-      style="position: fixed; bottom: 0; right: 0; width: 1px; height: 1px; opacity: 0.001; pointer-events: none;"
-      aria-hidden="true">
-      <source src="assets/pretty_little_baby.mp4" type="video/mp4">
-    </video>
-
-    <!-- YouTube Fallback Player (Offscreen, Audio-Only) -->
+    <!-- Invisible YouTube Fallback Player (Offscreen) -->
     <div id="yt-hidden-player-wrap" class="yt-hidden-player-wrap" aria-hidden="true">
       <iframe id="yt-main-iframe"
         src="https://www.youtube.com/embed/A1MdThqGarI?enablejsapi=1&autoplay=1&loop=1&playlist=A1MdThqGarI&playsinline=1&rel=0"
